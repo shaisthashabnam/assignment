@@ -21,49 +21,49 @@ int main()
 	
 	scanf("%d\n",&ch);
 
-  switch(ch)
+	 switch(ch)
   
-  {
+	 {
 	    
-  case 1:
+	 	case 1:
 	    
-	{
+		{
     
-      printf("AP series are\n");
+      			printf("AP series are\n");
 
-	    for(i=0;i<n;i++)
+	    		for(i=0;i<n;i++)
 
-	    {
+	    		{
 
-            printf("%d\n",s);
+            			printf("%d\n",s);
 
-            s=s+d;
+            			s=s+d;
 	
-		   }
+		   	}
 	
 		break;
 		
-	}
+		}
 	
-	case 2:
+		case 2:
 		
-	{
+		{
 
-	    	printf("GP series are\n");
+	    		printf("GP series are\n");
 		
-	    	for(i=0;i<n;i++)
+	    		for(i=0;i<n;i++)
 	    	
-	    	{
+	    		{
 	
-		      	  printf("%d\n",s);
+		      	  	printf("%d\n",s);
 	
-		    	    s=s*d;
-		    }
+		    	    	s=s*d;
+		    	}
 	   	
 	   	break;
-	 }
+	       }
 	
-   }
+	 }
 	return 0;
     
 }	
